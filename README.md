@@ -1,7 +1,6 @@
 # node-react-templates
 
-[![NPM version][npm-image]][npm-url]
-[![build status][travis-image]][travis-url]
+[![Build Status](https://travis-ci.org/jaydenlin/node-react-templates.svg?branch=master)](https://travis-ci.org/jaydenlin/node-react-templates)
 
 > Transparently `require()` .rt file from node with [react-templates](http://wix.github.io/react-templates) 
 
