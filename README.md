@@ -7,7 +7,6 @@ Transparently `require()` .rt file from node with [react-templates](http://wix.g
 
 Then you can use .rt file in the react components for server side rendering.
 
-
 ## Example
 The following is the example that using node-react-templates to render React components from node.
 
@@ -21,13 +20,13 @@ The following is the example that using node-react-templates to render React com
 ```
 var React = require('react/addons');
 
-var hellpTemplate = require("./hello.rt");
+var helloTemplate = require("./hello.rt");
 
 var Hello = React.createClass({
   
   render: function() {
     
-    return hellpTemplate();
+    return helloTemplate.apply(this);
     
   }
 
@@ -50,5 +49,16 @@ var contents = React.renderToString(React.createElement(component));
 console.log(contents);
 
 ```
+
+## Test
+
+You can use the following command to run mocha tests.
+
+```
+npm run test
+```
+
+the test script in under the folder `test/`.
+
  
 
