@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/jaydenlin/node-react-templates",
   "dependencies": {
-    "react-templates": "0.3.2"
+    "react-templates": "0.3.2",
+    "require-from-string": "^1.1.0"
   }
 }
