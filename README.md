@@ -8,16 +8,16 @@ Transparently `require()` .rt file from node with [react-templates](http://wix.g
 Then you can use .rt file in the react components for server side rendering.
 
 
-##Example
+## Example
 The following is the example that using node-react-templates to render React components from node.
 
-###React Templates Code --hello.rt
+### React Templates Code --hello.rt
 ```
 <div>
   <h3>Hello World</h3>
 </div>
 ```
-###React Components Code --hello.jsx
+### React Components Code --hello.jsx
 ```
 var React = require('react/addons');
 
@@ -36,7 +36,7 @@ var Hello = React.createClass({
 module.exports = Hello;
 ```
 
-###Server side rendering code --render.js
+### Server side rendering code --render.js
 ```
 var React = require('react/addons');
 require('node-jsx').install();
