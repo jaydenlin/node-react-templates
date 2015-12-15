@@ -1,0 +1,27 @@
+{
+  "name": "node-react-templates",
+  "version": "0.1.0",
+  "description": "transparently require() react-templates .rt file from node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jaydenlin/node-react-templates.git"
+  },
+  "keywords": [
+    "react-templates",
+    "node",
+    "server"
+  ],
+  "author": "Jayden Lin <jayden.weiyu@gmail.com> (http://www.jdlin.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaydenlin/node-react-templates/issues"
+  },
+  "homepage": "https://github.com/jaydenlin/node-react-templates",
+  "dependencies": {
+    "react-templates": "0.3.2"
+  }
+}
